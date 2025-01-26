@@ -8,7 +8,7 @@ set -e
 npm run build
 
 # Clear cache
-php artisan optimize:clear
+# php artisan optimize:clear
 
 # Cache the various components of the Laravel application
 # php artisan config:cache
