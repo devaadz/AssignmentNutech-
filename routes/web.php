@@ -7,7 +7,7 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return view('welcome');
 });
 
 
